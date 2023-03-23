@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body, html{
+    background-color: rgb(187, 114, 46);
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: #050505;
+    margin: 0;
+    position: relative;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #fff;
+    padding: 10px;  
+    text-decoration: none;
+    display: inline-block;
+    transition: background .3s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #0105ff
+}
+
+/*sub menu */
+#menu-h ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+#menu-h ul li:hover ul {
+    display: block;
+}
+
+#menu-h ul ul {
+    width: 150px;
+}
+
+#menu-h ul ul li a {
+    display: block;
+}
+
+.customizar{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: auto;
+}
+
+#carouselExampleControls{
+    width: 100%;
+    height: 40vh;
+}
+
+.img1{
+    width: 100%;
+    height: 40vh;
+    background-image: url(/Imagens/Golden.jpg);
+    background-size: cover;
+    background-position: 0,3px;
+}
+
+.img2{
+    width: 100%;
+    height: 40vh;
+    background-image: url(/Imagens/Pet1.jpg);
+    background-size: cover;
+    background-position: center top 60%;
+}
+
+.img3{
+    width: 100%;
+    height: 40vh;
+    background-image: url(/Imagens/Pet3.jpg);
+    background-size: cover;
+    background-position: 0,3px;
+}
+
+
+
+
+.c1{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.c1:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+}
+
+.cd{
+    object-fit: cover;
+    height: 295px;
+    width: 95%;
+}
+
+.container{
+    display: flex;
+    padding: 4%;
+}
+
+.loja{
+    background-image: url(/Imagens/walpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100%;
+}
+
+
+#menu-h2 ul {
+    list-style: none;
+    padding: 0;
+    background-color: #050505;
+    margin: 0;
+    position: relative;
+}
+
+#menu-h2 ul li {
+    display: inline;
+}
+
+#menu-h2 ul li a {
+    color: #fff;
+    padding: 10px;  
+    text-decoration: none;
+    display: inline-block;
+    transition: background .3s;
+}
+
+#menu-h2 ul li a:hover {
+    background-color: #0105ff
+}
+
+
+.slide1{
+    background-image: url(/Imagens/Nossaequipe.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center top 60%;
+    padding: 40px;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px;
+    
+    
+}
+
+p:txt2 {
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+    
+  }
+
+img{
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    background-position: left;
+}
+
+#custom{
+    background-position: center;
+    display: flex;
+    border-radius: 10%;
+   
+}
+
+#txt2{
+    color: #fff;
+}
+
+footer{
+    background-color: #050505;
+    padding: 5px;
+    color: white;
+}
